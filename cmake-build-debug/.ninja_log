@@ -1,0 +1,4 @@
+# ninja log v5
+2	138	6810480288370070	build.ninja	7513026e15d23686
+0	57	6810480289580924	CMakeFiles/cs_dataToCode.dir/main.cpp.obj	ee74b7899c0041c6
+57	140	6810480290381641	cs_dataToCode.exe	b7ec19befe5a2854
