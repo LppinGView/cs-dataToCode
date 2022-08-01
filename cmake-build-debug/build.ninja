@@ -55,6 +55,12 @@ build CMakeFiles/cs_dataToCode.dir/main.cpp.obj: CXX_COMPILER__cs_dataToCode_Deb
   OBJECT_DIR = CMakeFiles\cs_dataToCode.dir
   OBJECT_FILE_DIR = CMakeFiles\cs_dataToCode.dir
 
+build CMakeFiles/cs_dataToCode.dir/linear-list/sqlist.cpp.obj: CXX_COMPILER__cs_dataToCode_Debug C$:/Users/27801/workplace/cs/dataToCode/cs-dataToCode/linear-list/sqlist.cpp || cmake_object_order_depends_target_cs_dataToCode
+  DEP_FILE = CMakeFiles\cs_dataToCode.dir\linear-list\sqlist.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\cs_dataToCode.dir
+  OBJECT_FILE_DIR = CMakeFiles\cs_dataToCode.dir\linear-list
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cs_dataToCode
@@ -63,7 +69,7 @@ build CMakeFiles/cs_dataToCode.dir/main.cpp.obj: CXX_COMPILER__cs_dataToCode_Deb
 #############################################
 # Link the executable cs_dataToCode.exe
 
-build cs_dataToCode.exe: CXX_EXECUTABLE_LINKER__cs_dataToCode_Debug CMakeFiles/cs_dataToCode.dir/main.cpp.obj
+build cs_dataToCode.exe: CXX_EXECUTABLE_LINKER__cs_dataToCode_Debug CMakeFiles/cs_dataToCode.dir/main.cpp.obj CMakeFiles/cs_dataToCode.dir/linear-list/sqlist.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cs_dataToCode.dir
