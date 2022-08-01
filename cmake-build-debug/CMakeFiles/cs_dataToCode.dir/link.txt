@@ -1,0 +1,3 @@
+"D:\soft\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cs_dataToCode.dir/objects.a
+"D:\soft\CLion 2022.2\bin\mingw\bin\ar.exe" qc CMakeFiles\cs_dataToCode.dir/objects.a @CMakeFiles\cs_dataToCode.dir\objects1.rsp
+"D:\soft\CLion 2022.2\bin\mingw\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\cs_dataToCode.dir/objects.a -Wl,--no-whole-archive -o cs_dataToCode.exe -Wl,--out-implib,libcs_dataToCode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cs_dataToCode.dir\linklibs.rsp
