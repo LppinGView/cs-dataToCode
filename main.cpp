@@ -4,6 +4,6 @@
 
 int main() {
 //    TestList();
-//    TestLinkList();
-    TestDLinkList();
+    TestLinkList();
+//    TestDLinkList();
 }

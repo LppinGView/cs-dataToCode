@@ -128,6 +128,30 @@ cs_dataToCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cs_dataToCode.dir\build.make CMakeFiles/cs_dataToCode.dir/build
 .PHONY : cs_dataToCode/fast
 
+linear-list/dlinklist.obj: linear-list/dlinklist.cpp.obj
+.PHONY : linear-list/dlinklist.obj
+
+# target to build an object file
+linear-list/dlinklist.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cs_dataToCode.dir\build.make CMakeFiles/cs_dataToCode.dir/linear-list/dlinklist.cpp.obj
+.PHONY : linear-list/dlinklist.cpp.obj
+
+linear-list/dlinklist.i: linear-list/dlinklist.cpp.i
+.PHONY : linear-list/dlinklist.i
+
+# target to preprocess a source file
+linear-list/dlinklist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cs_dataToCode.dir\build.make CMakeFiles/cs_dataToCode.dir/linear-list/dlinklist.cpp.i
+.PHONY : linear-list/dlinklist.cpp.i
+
+linear-list/dlinklist.s: linear-list/dlinklist.cpp.s
+.PHONY : linear-list/dlinklist.s
+
+# target to generate assembly for a file
+linear-list/dlinklist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cs_dataToCode.dir\build.make CMakeFiles/cs_dataToCode.dir/linear-list/dlinklist.cpp.s
+.PHONY : linear-list/dlinklist.cpp.s
+
 linear-list/linklist.obj: linear-list/linklist.cpp.obj
 .PHONY : linear-list/linklist.obj
 
@@ -209,6 +233,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cs_dataToCode
+	@echo ... linear-list/dlinklist.obj
+	@echo ... linear-list/dlinklist.i
+	@echo ... linear-list/dlinklist.s
 	@echo ... linear-list/linklist.obj
 	@echo ... linear-list/linklist.i
 	@echo ... linear-list/linklist.s

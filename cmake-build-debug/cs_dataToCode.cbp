@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/workplace_lpp/c/cs-dataToCode/linear-list/dlinklist.cpp">
+			<Option target="cs_dataToCode"/>
+		</Unit>
+		<Unit filename="D:/workplace_lpp/c/cs-dataToCode/linear-list/dlinklist.h">
+			<Option target="cs_dataToCode"/>
+		</Unit>
 		<Unit filename="D:/workplace_lpp/c/cs-dataToCode/linear-list/linklist.cpp">
 			<Option target="cs_dataToCode"/>
 		</Unit>

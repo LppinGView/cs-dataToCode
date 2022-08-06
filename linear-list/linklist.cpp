@@ -3,8 +3,6 @@
 #include <cstdio>
 #include "linklist.h"
 
-bool LNodeInsert(const int &e, LNode *p);
-
 /**
  * 获取位序为i的结点
  * @param L 代表单链表
